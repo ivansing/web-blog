@@ -1,0 +1,19 @@
+{
+  "name": "web-blog",
+  "version": "1.0.0",
+  "description": "Blog page made with node and react.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivansing/web-blog.git"
+  },
+  "author": "Ivansing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivansing/web-blog/issues"
+  },
+  "homepage": "https://github.com/ivansing/web-blog#readme"
+}
