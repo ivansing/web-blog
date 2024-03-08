@@ -1,15 +1,13 @@
 const express = require('express')
 const app = express()
 const router = express.Router()
+const contactRoutes = require('./routes/contacts')
+const todoRoutes = require('./routes/todos')
+const userRoutes = require('./routes/users')
 
-router.get('/', (req, res) => {
-    res.send('Hello world')
-})
-
-router.get('/about', (req, res) => {
-    res.send('About us')
-})
-
-app.use(router)
+// Routes middlewares
+app.use('/contacts', contactRoutes)
+app.use('/todos', todoRoutes)
+app.use('/users', userRoutes)
 
 module.exports = app
