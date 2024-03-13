@@ -5,7 +5,8 @@ class TodosController {
                 success: true,
                 data: [
                     {todo: 'learn Node.js'},
-                    {todo: 'learn Java'}
+                    {todo: 'learn Java'},
+                    {todo: "Software design"}
                 ]
             })
         }
