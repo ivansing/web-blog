@@ -1,3 +1,5 @@
+const UserSchema = require('../models/user-model')
+
 class UserControllers {
     
     signup = () => {

@@ -1,3 +1,5 @@
+const ContactSchema = require('../models/contact-model')
+
 class ContactsController {
     getAll = () => {
         return (req, res, next) => {

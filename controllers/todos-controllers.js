@@ -1,3 +1,5 @@
+const TodoSchema = require('../models/todo-model')
+
 class TodosController {
     getAll = () => {
         return (req, res, next) => {
